@@ -1,0 +1,27 @@
+{
+  "name": "ecommerce-one",
+  "version": "1.0.0",
+  "description": "Este es el producto principal de mi proyecto Web Tech",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnjou7/ecommerce1.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "dependencias"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT"
+}
