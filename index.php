@@ -16,7 +16,7 @@
 
 <style>
   body{
-    color:seagreen;
+    background-color:seagreen;
   }
 </style>
 
