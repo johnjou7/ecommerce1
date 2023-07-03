@@ -1,3 +1,7 @@
+<?
+  echo 'Hola baby';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
