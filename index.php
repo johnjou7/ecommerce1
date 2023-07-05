@@ -16,7 +16,7 @@
 
 <style>
   body{
-    background-color:realblue;
+    background-color: royalblue;
   }
 </style>
 
