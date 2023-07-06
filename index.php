@@ -10,7 +10,8 @@
   <title>PROY ONE</title>
 </head>
 <body>
-  WUUUUUUU. Excelente, ahora a seguir
+  WUUUUUUU. Excelente, ahora a seguir <br>
+  <span style=color:white font-weight:bold>INDEX DE LA MAIN</span>
 </body>
 </html>
 
