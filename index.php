@@ -22,7 +22,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Bienvenido a ---</title>
+    <title>Bienvenido al index de la branch develop</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
