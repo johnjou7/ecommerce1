@@ -1,8 +1,9 @@
 <?php
+  // Conexión a la base de datos
   $serverName = "localhost";
   $userName = "root";
   $password = "";
-  $dbName = "";
+  $dbName = "zpractica_db";
 
   try{
     $connect_db = new PDO(
@@ -14,7 +15,7 @@
     echo("Conexión exitosa baby");
   }
   catch(PDOException $pdoException){
-    echo("Error al conectar con la base de datos") . $pdoException -> getMessage();
+    echo("Error al conectar con la base de datos. ") . $pdoException -> getMessage();
   }
     
 ?>
