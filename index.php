@@ -3,11 +3,11 @@
   require('APIs/consultas_db.php');
 
   if(isset($_SESSION['id_user'])){
-    header('modulos/users_home.php');
+    header('Location: modules/login-register/interface-usershome.php');
     exit();
   }
   else{
-    header('modulos/login.php');
+    header('Location: modules/login-register/interface-login.php');
     exit();
   }
 
