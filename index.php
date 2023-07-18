@@ -1,5 +1,5 @@
 <?php
-/*   session_start();
+  session_start();
   require('APIs/consultas_db.php');
 
   header('login.php');
@@ -12,7 +12,5 @@
     exit();
   }
 
-  session_destroy(); */
-
-  phpinfo();
+  session_destroy();
 ?>
