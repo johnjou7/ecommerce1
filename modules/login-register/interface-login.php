@@ -10,9 +10,9 @@
   <div class="ventana-login">
     <h1>Login</h1>
     <div class="contenedor-in-login">
-      <input name="nombre" type="text" placeholder="Ingresa tu nombre aquí">
-      <input name="contrasena" type="password" placeholder="Ingresa tu contraseña aquí">
-      <input name="entrar-button" type="submit" value="Entrar">
+      <input name="nombre" id="id_fromLogin_name" type="text" placeholder="Ingresa tu nombre aquí">
+      <input name="contrasena" id="id_fromLogin_pass" type="password" placeholder="Ingresa tu contraseña aquí">
+      <input name="entrar-button" id="id_fromLogin_send" type="submit" value="Entrar" onclick="_sendInfoLoginWithAjax()">
     </div>
   </div>
 </body>
