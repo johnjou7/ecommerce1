@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* INPUTS */
+
+input[type=text],
+input[type=password]{
+  border: 2px solid black;
+  padding: 5px;
+  margin: 5px;
+  height: 20px;
+  min-width: 200px;
+}
+
+input[type=submit]{
+  border: none;
+  padding: 5px;
+  margin: 10px;
+  height: 50px;
+  width: 75px;
+  color: black;
+  font-weight: bold;
+  background-color: royalblue;
+  transition: all 0.3s;
+
+}
+
+input[type=submit]:hover{
+  background-color: skyblue;
+}
+
+/* LOGIN - SACAR DE ESTE STYLE ??*/
+.ventana-login{
+  position: absolute;
+  border: 2px solid gray;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.contenedor-in-login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
