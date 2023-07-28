@@ -1,6 +1,6 @@
 <?php
   session_start();
-  require('APIs/consultas_db.php');
+
 
   // si ya existe una sesión, entonces se pasa directamente a la interface home que le corresponde.
   if(isset($_SESSION['id_user'])){

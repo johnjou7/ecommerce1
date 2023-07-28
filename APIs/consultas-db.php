@@ -1,5 +1,5 @@
 <?php
-  // Conexión a la base de datos
+  //Conexión a la base de datos
   $serverName = "localhost";
   $userName = "root";
   $password = "";
@@ -17,5 +17,17 @@
   catch(PDOException $pdoException){
     echo("Error al conectar con la base de datos. ") . $pdoException -> getMessage();
   }
+
+  //Estar a la escucha de cualquier solicitud proveniente de los módulos `_´
+/*   $solicitud = "";
+  if($solicitud != ""){
+    $solicitud = "";
+  }
+  else{} */
+
+  //Consultas
+
+  //Existencia o no existencia de una sesión iniciada
+  
     
 ?>
