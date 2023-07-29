@@ -11,17 +11,19 @@
   <div class="ventana-login">
     <h1>Login</h1>
     <div class="container in-login">
-      <div class="mini-container in-login">
-        <label for="nombreLog">Nombre:</label>
-        <input name="nombreLog" id="id_fromLogin_name" type="text" placeholder="Ingresa tu nombre aquí">
-      </div>
-      <div class="mini-container in-login">
-        <label for="contrasenaLog">Contraseña:</label>
-        <input name="contrasenaLog" id="id_fromLogin_pass" type="password" placeholder="Ingresa tu contraseña aquí">
-      </div>
-      <input name="entrar-button" id="id_fromLogin_send" type="submit" value="Entrar" onclick="_ajaxShit()">
-      <a href="inteface-register.html">Registrarse</a>
+      <form action="logic-login.php" method="post">
+        <div class="mini-container in-login">
+          <label for="nombreLog">Nombre:</label>
+          <input name="nombreLog" id="id_fromLogin_name" type="text" placeholder="Ingresa tu nombre de usuario">
+        </div>
+        <div class="mini-container in-login">
+          <label for="contrasenaLog">Contraseña:</label>
+          <input name="contrasenaLog" id="id_fromLogin_pass" type="password" placeholder="Ingresa tu contraseña">
+        </div>
+        <input name="entrar-button" id="id_fromLogin_send" type="submit" value="Entrar">
+        <a href="inteface-register.html">Registrarse</a>
     </div>
+      </form>
   </div>
 
   <h1 id="h1_ajax"></h1>

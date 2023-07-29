@@ -27,7 +27,10 @@
 
   //Consultas
 
-  //Existencia o no existencia de una sesión iniciada
-  
+  //Consulta uno
+
+
+  //Consulta dos
+
     
 ?>
