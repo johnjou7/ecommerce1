@@ -19,11 +19,10 @@
   }
 
   //Estar a la escucha de cualquier solicitud proveniente de los módulos `_´
-/*   $solicitud = "";
-  if($solicitud != ""){
-    $solicitud = "";
-  }
-  else{} */
+  $solicitud = $_POST['solicitud'];
+  $solicitante = $_POST['solicitante'];
+
+  echo $solicitante . '<br>' . $solicitud;
 
   //Consultas
 
